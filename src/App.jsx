@@ -1,14 +1,16 @@
 import Card from "./Card"
+import Button from "./button"
 
+//Css options:
+/*
+-inline
+-modules
+-external */
 function App() {
 
     return(
       <> 
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
+      <Button/>
       </>
     )
 }
