@@ -31,5 +31,7 @@ Student.propTypes = {
 };
 //NOTE: the datatypes strictness is not being enforced .
 //No reason found yet
-
+/*REASON FOUND:
+If on the latest React (React 19 and above) and using function components, propTypes are no longer supported and will be silently ignored. The React team has removed runtime propTypes checks for function components in React 19. 
+*/
 export default Student

@@ -1,3 +1,25 @@
+.list-category{
+  font-size: 2.5em;
+  font-weight: bold;
+  color: hsl(0,0%,20%, saturation, lightness);
+  margin-bottom: 10px;
+  text-align: center;
+  border: 2px solid;
+  border-radius: 5px;
+  background-color: aliceblue;
+}
+.list-items{
+  font-size: 2em;
+  list-style: none;
+  color: hsl(0, 0%,25%);
+  margin: 0;
+  /* text-align: center; */
+
+}
+.list-items:hover{
+  color: hsl(0, 0%,55%);
+  cursor: pointer;
+}
 .welcome-message{
   font-size: 2.5em;
   background-color: hsl(120, 100%, 42%);
