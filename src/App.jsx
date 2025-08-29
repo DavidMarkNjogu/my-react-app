@@ -9,12 +9,11 @@ useState() - A React hook that allows the creation of a stateful variable
 
 import MyComponent from "./MyComponent.jsx";
 import Counter from "./Counter.jsx";
-
+import ColorPicker from "./ColorPicker.jsx";
 function App() {
     return(
     <> 
-      <MyComponent/>
-      <Counter/>
+      <ColorPicker/>
     </>
   ); 
 }
